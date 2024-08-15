@@ -1,0 +1,119 @@
+/* 
+
+.App{
+ text-align: center;
+ margin-top: 5%;
+}
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button.add-card-button {
+  margin-bottom: 20px;
+}
+
+button.close-popup-button {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+button.close-popup-button:hover {
+  background-color: #ff69b4;
+  opacity: 0.8;
+}
+
+
+.popup{
+  background-color: #f0f0f0;
+}
+canvas {
+  border: 1px solid black;
+  margin-right: 5%;
+}
+.canvas-container {
+  position: relative;
+}
+
+
+
+
+
+ */
+
+
+ .App {
+   text-align: center;
+   margin-top: 5%;
+ }
+
+ button {
+   background-color: #4CAF50;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color: #3e8e41;
+ }
+
+ button:active {
+   background-color: #3e8e41;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ }
+
+ button.add-card-button {
+   margin-bottom: 20px;
+ }
+
+ button.close-popup-button {
+   background-color: #ff69b4;
+   color: #fff;
+   padding: 5px 10px;
+   font-size: 14px;
+ }
+
+ button.close-popup-button:hover {
+   background-color: #ff69b4;
+   opacity: 0.8;
+ }
+
+ .popup {
+   background-color: #f0f0f0;
+ }
+
+ canvas {
+   border: 1px solid black;
+   margin-right: 5%;
+ }
+
+ .canvas-container {
+   position: relative;
+ }
+
+ /* Add this CSS rule */
+ button {
+   position: absolute;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+ }
